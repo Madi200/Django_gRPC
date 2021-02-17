@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package shop;
+
+service ShopService {
+    rpc GetShopList(ShopRequest) returns (ShopListResponse) {}
+}
+
+message Shop {
+    int32 id = 1;
+    string name = 2;
+    int32 retailer_id = 3;
+    string address = 4;
+}
+
+message ShopListResponse {
+  repeated Shop data = 1;
+}
+
+message ShopRequest {
+    int32 retailer_id = 1;
+}

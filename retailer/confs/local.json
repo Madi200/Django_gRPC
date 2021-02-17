@@ -1,0 +1,11 @@
+{
+    "SECRET_KEY" : "%j#@ph6lluh$rhnd5^40m_3a*l4@p4z@-c@(5$h2p=%0l4r(5!",
+    "ENGINE":"django.db.backends.mysql",
+    "DB":"retailer",
+    "DB_USER":"root",
+    "DB_PASS":"root",
+    "DB_HOST":"127.0.0.1",
+    "DEBUG" : "True",
+    "DB_PORT":"3306"
+}
+
